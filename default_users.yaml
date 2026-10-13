@@ -5,4 +5,5 @@
 - ansible: 
     ssh_keys: 
       - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE+i+iuEKX4f53uVx7D59snZLLHbhp+1U6Y35/fYgFh6"
+      - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA0z8pQilItaQouGpWoZURl/Z6kX9xQRQ6FNzVkotiz2 Ansible Bastions"
     sudo: true
