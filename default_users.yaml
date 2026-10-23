@@ -2,8 +2,10 @@
     ssh_keys: 
       - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/hycCQ3x1Iqc106u3xCQlWZak4DAe2FJ9YTNjPAYte1HKkTfDvMOAzwwARfKakz33c4qQDXyjifBW1KNCpT87gHkEPNsS3NbaSwF7YQCwEQVIj2HpU9KH0OhThay8Kkhbu2ogz1nk04MPnhpRZSpWoTj7hdv/Ab1lplpevFTtyE2PQhKsFEGMwGIYILRtu+5AHTP6aD4KNnpEwp0QTIbp0jM48J8GpEJYCa64mfn0+86XKfWpfW8EwtIMpMhSH0LSiRsumJkDC1S4eHLuAfO2QQHUXex+LTTrrYsjEmx7ucFpTfOmE6SN3coPpe6+FNkw1PEZNa7D3hsYqnqGYu/KymCWBwrqHsK14uVwyLofWd5+TES3Wz+0MJtOnOzh68hnB3SnmM3acP+UptYHtoQYIm16tftCmJSpf0JWglsZWuTVt5fMfTv/S7Ga5sqVFvI4xGkWdG/H7A54dNExZsyjwDfZvPArDGmKxOhpsF3WWUUwR/3zWQvlUyJyxQW90bk="
     sudo: true
+    passwordless_sudo: true
 - ansible: 
     ssh_keys: 
       - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE+i+iuEKX4f53uVx7D59snZLLHbhp+1U6Y35/fYgFh6"
       - "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIA0z8pQilItaQouGpWoZURl/Z6kX9xQRQ6FNzVkotiz2 Ansible Bastions"
     sudo: true
+    passwordless_sudo: true
